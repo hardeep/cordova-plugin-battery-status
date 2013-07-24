@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-           id="org.apache.cordova.core.battery-status"
-      version="0.1.0">
-    <name>Battery</name>
+           id="org.apache.cordova.core.battery-status" 
+           version="0.1.0">
+    <name>battery</name>
 
     <js-module src="www/battery.js" name="battery">
         <clobbers target="navigator.battery" />
